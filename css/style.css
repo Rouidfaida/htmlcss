@@ -1,0 +1,160 @@
+header {
+    background-image: url(../images/slide.jpg);
+    width: 100%;
+    height: 400px;
+    margin-top: -16px;
+}
+
+.nav-bar {
+    background-color: black;
+    opacity: 0.70;
+    z-index: 6;
+    height: 120px;
+}
+
+.main-menu {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 80px;
+    margin-left: 300px;
+    margin-right: 350px;
+}
+
+.main-menu li {
+    text-transform: uppercase;
+    font-family: "Segoe UI Historic", "Segoe UI", Helvetica, Arial;
+    line-height: 18px;
+    font-weight: 900;
+    color: white;
+    font-size: 14px;
+}
+
+.sub-main {
+    list-style: none;
+    display: block;
+    width: 70px;
+    height: 60px;
+    padding: 10px;
+    margin-top: 18px;
+    background-color: #F25C05;
+    margin-left: -20px;
+}
+
+.item-sub-main {
+    margin-left: 15px;
+    font-size: 14px;
+}
+
+.line1 {
+    margin-top: -5px;
+    height: 1.5px;
+    width: 90px;
+    margin-left: -10px;
+    border: none;
+    background-color: rgb(161, 148, 148);
+    opacity: 30;
+}
+
+.line2 {
+    height: 1.5px;
+    width: 90px;
+    margin-left: -10px;
+    border: none;
+    background-color: rgb(161, 148, 148);
+    opacity: 1;
+}
+
+.line3 {
+    border: none;
+    background-color: rgb(73, 69, 69);
+    opacity: 0.90;
+    margin-top: -95px;
+    height: 3px;
+}
+
+.logo {
+    margin-top: -50px;
+    width: 80px;
+    height: 80px;
+}
+
+.prev-solid {
+    margin-top: 100px;
+    margin-left: 350px;
+}
+
+.next-solid {
+    margin-top: 100px;
+    margin-left: 800px;
+}
+
+.content {
+    background-image: url(../images/bg-content.jpg);
+    margin-top: -50px;
+}
+
+.galerie {
+    background-image: url(../images/bg-galerie.jpg);
+    height: 300px;
+}
+
+.title {
+    color: rgb(124, 90, 52);
+    font-family: "Segoe UI Historic", "Segoe UI", Helvetica, Arial;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-left: 650px;
+    padding-top: 20px;
+}
+
+.title2 {
+    color: #F28705;
+    font-family: 'Great Vibes', cursive;
+    margin-left: 600px;
+    font-size: 24px;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+.line4 {
+    width: 800px;
+    margin-left: 480px;
+    margin-top: 30px;
+    color: gray;
+    height: 1px;
+}
+
+.line5 {
+    width: 800px;
+    margin-left: 480px;
+    margin-top: -6px;
+    color: gray;
+    height: 1px;
+}
+
+.paragraphe {
+    margin-left: 480px;
+    margin-right: 320px;
+    text-align: center;
+    padding: 2px 5px;
+    font-weight: 530;
+    font-family: arial;
+    color: black;
+    font-size: 13px;
+    line-height: 30px;
+}
+
+.soustitle {
+    display: flex;
+    margin-left: 600px;
+}
+
+.line6,
+.line7,
+.line8,
+.line9 {
+    width: 90px;
+    height: 1px;
+    display: flex;
+}
